@@ -2,6 +2,7 @@ import React from 'react'
 import CardDatosEmpleado from '../components/CardDatosEmpleado'
 import CardDatosIncidencia from '../components/CardDatosIncidencia'
 import Buttons from '../components/Buttons'
+import ModalPassword from '../components/ModalPassword'
 
 export default function Cards() {
     return (

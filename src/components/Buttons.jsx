@@ -1,5 +1,6 @@
 import { Button } from '@nextui-org/react'
 import React from 'react'
+import ModalPassword from './ModalPassword'
 
 export default function Buttons() {
     return (
@@ -8,9 +9,7 @@ export default function Buttons() {
                 Rechazar
             </Button>
 
-            <Button className='w-80' color="success">
-                Aceptar
-            </Button>
+            <ModalPassword />
         </div>
     )
 }
